@@ -21,7 +21,7 @@ LOCATORS:
 selenium has the ability to perform the actions on the elements present on the ui but it doesn't has the
 capability to uniquely locate the web element.  
     there it takes the help of locators to locate the web elements uniquely on web application and perform the corresponding operations
-
+## DAY-1
 ## Selenium WebDriver Archtiecture
 <img width="1152" height="648" alt="image" src="https://github.com/user-attachments/assets/70fae179-b74a-443b-8a18-9985897da3c3" />
 # Selenium WebDriver Architecture
