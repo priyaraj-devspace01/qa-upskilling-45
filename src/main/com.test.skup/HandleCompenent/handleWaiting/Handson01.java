@@ -1,4 +1,9 @@
-package HandleCompenent.handleWaiting;
+package main.com.test.skup.HandleCompenent.handleWaiting;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -7,6 +12,7 @@ import org.openqa.selenium.support.ui.*;
 import java.time.Duration;
 
 public class Handson01 {
+
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.hyrtutorials.com/p/waits-demo.html");
@@ -32,7 +38,6 @@ public class Handson01 {
 //        System.out.println("isDisplayed : "+isDisplayed);
 
 
-
         /// finally we have explicit wait where instead of setting one global wait we can set the waiting time for individual element
 //        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 //       WebElement textboxget =  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//input[@id='txt1'])[1]")));
@@ -50,6 +55,5 @@ public class Handson01 {
         textboxget2.sendKeys("Apple");
         Thread.sleep(2000);
         driver.quit();
-
     }
 }
