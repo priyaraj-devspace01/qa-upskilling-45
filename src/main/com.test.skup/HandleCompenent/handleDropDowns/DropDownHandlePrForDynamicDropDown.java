@@ -40,12 +40,6 @@ public class DropDownHandlePrForDynamicDropDown {
         }
         Thread.sleep(1000);
         System.out.println("selected india successfully .. ");
-
-
-
-
-
-
         driver.quit();
 
 
