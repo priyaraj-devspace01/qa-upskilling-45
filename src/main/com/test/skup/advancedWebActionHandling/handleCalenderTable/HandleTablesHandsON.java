@@ -41,8 +41,6 @@ public class HandleTablesHandsON
         System.out.println("the value at required index is : " + value.getText());
         System.out.println();
         Thread.sleep(2000);
-
         driver.quit();
-
     }
 }
