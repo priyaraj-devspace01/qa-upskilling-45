@@ -1,4 +1,4 @@
-package src.main.com.test.skup.advancedWebActionHandling.handleCalenderTable;
+package handleTableAndCalender;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
